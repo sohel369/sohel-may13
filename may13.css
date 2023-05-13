@@ -1,0 +1,81 @@
+.containerr {
+    width: 400px;
+    background: #ffffff;
+    padding: 30px;
+    box-shadow: 0px 0px 0px;
+    align-items: center;
+    align-content: center;
+}
+
+.containerr .input-data {
+    height: 40px;
+    width: 100%;
+    position: relative;
+}
+
+.containerr .input-data input {
+    height: 100%;
+    width: 100%;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid silver;
+    font-size: 17px;
+}
+.containerr .input-data2 input {
+    height: 100%;
+    width: 100%;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid silver;
+    font-size: 17px;
+}
+
+.containerr .input-data label {
+    position: absolute;
+    bottom: 10px;
+    left: 0px;
+    color: grey;
+    pointer-events: none;
+    transition: all .4s ease;
+    font-size: 20px;
+}
+.containerr .input-data2 label {
+    position: relative;
+    bottom: 0px;
+    left: 0px;
+    color: black;
+    pointer-events: none;
+    transition: all .4s ease;
+    font-size: 20px;
+}
+
+.input-data input:focus~label {
+    transform: translateY(-20px);
+}
+.input-data2 input:focus~label {
+    transform: translateY(-20px);
+}
+.containerr h1 {
+    text-align: left;
+}
+.containerr {
+    height: 300px;
+    width: 40%;
+    background: white;
+    align-items: center;
+    text-align: center;
+    align-content: center;
+}
+body {
+    background-color: rgb(227, 88, 105);
+    background-size: 100vh;
+}
+.containerr a {
+    position: relative;
+    top: 20px;
+    text-align: center;
+    text-decoration: none;
+    color: green;
+    cursor: progress, pointer;
+
+}
